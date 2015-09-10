@@ -1,0 +1,19 @@
+<div class="mindStructure">
+	<div class="node node_root">
+	<div class="node__text">Subject</div>
+	<input type="text" class="node__input">
+	</div>
+	<ol ng-include="'detail/structure/subject.html'" class="children children_rightbranch"></ol>
+	<b> + </b>
+	<div class="node node_root">
+	<div class="node__text">Verb</div>
+	<input type="text" class="node__input">
+	</div>
+	<ol ng-include="'detail/structure/verb.html'" class="children children_rightbranch"></ol>
+	<b> + </b>
+	<div class="node node_root">
+	<div class="node__text">Object</div>
+	<input type="text" class="node__input">
+	</div>
+	<ol ng-include="'detail/structure/object.html'" class="children children_rightbranch"></ol>
+</div>

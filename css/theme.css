@@ -1,0 +1,101 @@
+.modalhead_color{
+	color: #669900;
+}
+
+.tableModal td,th
+{
+    text-align:center; 
+    vertical-align:middle;
+}
+
+.modal-fixed-height{
+    overflow-y:auto;
+    max-height:550px;
+}
+
+.tap{
+	margin-left: 30px;
+}
+
+.node_purple{
+	background-color: #8f3778;
+	color: #fff;
+	border: none;
+}
+
+.node_orange{
+	background-color: #ff6600;
+	color: #fff;
+	border: none;
+}
+
+.node_navy{
+	background-color: #3a5795;
+	color: #fff;
+	border: none;
+}
+
+.node_green{
+	background-color: #83a810;
+	color: #fff;
+	border: none;
+}
+
+.node_brown{
+	background-color: #c16100;
+	color: #fff;
+	border: none;
+}
+
+.node_yellow{
+	background-color: #FCBF60;
+	color: #fff;
+	border: none;
+}
+
+.quiz_choice{
+   	background: none repeat scroll 0 0 #3498db;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    direction: ltr;
+    display: inline-block;
+    height: 22px;
+    margin: 2px 0;
+    padding: 0 4px;
+    position: relative;
+    text-align: left;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.Qactive{
+	background-color: #83a810;
+	color: #fff;
+}
+.error{
+    border: none;
+    border-radius: 2px;
+	background-color: #cc181e;
+	color: #fff;
+}
+.QWactive{
+	background-color: #cc181e;
+	color: #fff;
+}
+.spanHeader{
+	position: absolute;
+}
+
+.emp{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.describe{
+	font-size: .8em;
+}
+blockquote{
+	font-size: 1em;
+}
